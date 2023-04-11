@@ -10,12 +10,12 @@ const AccountSummary = () => {
     const income = amount
         .filter(transaction => transaction > 0)
         .reduce((acc, transaction) => (acc += transaction), 0)
-        .toFixed(2);
+        .toFixed(1);
 
     const expense = Math.abs(amount
         .filter(transaction => transaction < 0)
         .reduce((acc, transaction) => (acc += transaction), 0)
-    ).toFixed(2);
+    ).toFixed(1);
 
 
     return (

@@ -6,10 +6,10 @@ import AppReducer from './Appreducer'
 // Create the Initial State
 const initialState = {
     transactions: [
-        { id: 1, description: "Income 1", amount: 3000 },
-        { id: 2, description: "Expanse 1", amount: -300 },
-        { id: 3, description: "Income 2", amount: 1000 },
-        { id: 4, description: "Expanse 2", amount: - 500 },
+        // { id: 1, description: "Income 1", amount: 3000 },
+        // { id: 2, description: "Expanse 1", amount: -300 },
+        // { id: 3, description: "Income 2", amount: 1000 },
+        // { id: 4, description: "Expanse 2", amount: - 500 },
     ]
 }
 
